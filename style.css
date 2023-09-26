@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+nav{
+    background-color: #171717;
+    display: flex;
+    color: #F9F9F9;
+    justify-content: space-around;
+    gap: 28rem;
+    padding: 1rem;
+}
+
+div#about-nav{
+    display: flex;
+    gap: 3rem;
+    padding-top: 0.5rem;
+    font-family: "DM Sans", sans-serif, Arial;
+}
+
+nav p{
+    font-weight: 500;
+    font-size: 1.03rem;
+}
+
+nav h1{
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 700;
+}
+
+section#page1{
+    background-color: #171717;
+    display: flex;
+    justify-content: space-around;
+    gap: 32rem;
+    padding: 5.3rem;
+}
+
+div#about-page1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div#tittle-page1{
+    color: #F9F9F9;
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 700;
+    font-size: 1.58rem;
+    width: 19rem;
+}
+
+div#subtittle-page1{
+    color: #828282;
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 500;
+    font-size: 1.09rem
+}
+
+div#buttons-page1{
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+button#first{
+    background-color: #00DF5E;
+    border: none;
+    padding: 0.7rem 1.7rem;
+    color: #171717;
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button#second{
+    background-color: #171717;
+    border: 1px solid #333;
+    padding: 0.6rem 1rem;
+    color: #F9F9F9;
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 500;
+    cursor: pointer;
+}
+    
+section#page2{
+    font-family: "DM Sans", sans-serif, Arial;
+    background-color: #171717;
+    padding-top: 2rem;
+}
+
+section#page2 h1{
+    text-align: center;
+    font-weight: 700;
+    color: #F9F9F9;
+    font-size: 2rem;
+}
+
+section#page2 p{
+    color:#828282;
+    text-align: center;
+    width: 39rem;
+    display: flex;
+    line-height: 28px;
+}
+
+div#about-page2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+div#subtittle-page2{
+    margin: 0 auto;
+}
