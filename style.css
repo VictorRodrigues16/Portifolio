@@ -172,3 +172,11 @@ section#page3 h1{
     font-weight: 700;
     font-size: 2rem;
 }
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #212121;
+    color: #F9F9F9;
+    font-family: "DM Sans", sans-serif, Arial;
+}
