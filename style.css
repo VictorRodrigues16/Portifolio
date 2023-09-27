@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
 
 
 * {
@@ -24,13 +24,15 @@ div#about-nav{
 }
 
 nav p{
-    font-weight: 500;
-    font-size: 1.03rem;
+    font-weight: 400;
+    font-size: 1.17rem;
 }
 
 nav h1{
     font-family: "DM Sans", sans-serif, Arial;
     font-weight: 700;
+    font-size: 1.6rem;
+    padding-left: 1rem;
 }
 
 section#page1{
@@ -59,19 +61,19 @@ div#subtittle-page1{
     color: #828282;
     font-family: "DM Sans", sans-serif, Arial;
     font-weight: 500;
-    font-size: 1.09rem
+    font-size: 1.2rem
 }
 
 div#buttons-page1{
     display: flex;
-    gap: 1rem;
+    gap: 0.9rem;
     padding-top: 1rem;
 }
 
 button#first{
     background-color: #00DF5E;
     border: none;
-    padding: 0.7rem 1.7rem;
+    padding: 0.7rem 2rem;
     color: #171717;
     font-family: "DM Sans", sans-serif, Arial;
     font-weight: 500;
@@ -81,7 +83,7 @@ button#first{
 button#second{
     background-color: #171717;
     border: 1px solid #333;
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 1.5rem;
     color: #F9F9F9;
     font-family: "DM Sans", sans-serif, Arial;
     font-weight: 500;
@@ -104,17 +106,69 @@ section#page2 h1{
 section#page2 p{
     color:#828282;
     text-align: center;
-    width: 39rem;
+    width: 44rem;
     display: flex;
     line-height: 28px;
+    padding-bottom: 5rem;
+    line-height: 32px;
 }
 
 div#about-page2{
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 1.8rem;
+    align-items: center;
 }
 
 div#subtittle-page2{
-    margin: 0 auto;
+    color: #828282;
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+
+div#icons-page2{
+    justify-content: space-around;
+    display: flex;
+    padding: 3rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
+}
+
+div#icons{
+   text-align: center;
+
+}
+
+div#icons img{
+    background-color: #212121;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+section#page2 h2{
+    color: #F9F9F9;
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+section#page2 li{
+    list-style: none;
+    color: #828282;
+    
+}
+
+section#page3{
+    background-color: #171717;
+}
+
+section#page3 h1{
+    padding: 7rem;
+    color: #F9F9F9;
+    text-align: center;
+    font-family: "DM Sans", sans-serif, Arial;
+    font-weight: 700;
+    font-size: 2rem;
 }
