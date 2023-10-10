@@ -180,3 +180,27 @@ footer{
     color: #F9F9F9;
     font-family: "DM Sans", sans-serif, Arial;
 }
+
+
+div.box{
+    background-color: #333333;
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div#text-box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+img#img-box{
+    width: 12rem;
+    padding-top: 1rem;
+}
+
+.inside-box{
+    text-align: center;
+}
